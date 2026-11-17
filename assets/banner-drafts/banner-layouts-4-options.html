@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>iМастер — исправленный просмотр макетов рекламных баннеров</title>
+<style>
+:root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#1a2c51;background:#edf3fa;font-synthesis:none}*{box-sizing:border-box}body{margin:0;padding:26px 15px 50px}button{font:inherit;cursor:pointer}.wrap{max-width:1120px;margin:auto}.title{font-size:25px;letter-spacing:-.65px;margin:0 0 7px}.intro{font-size:14px;color:#687c99;margin:0 0 24px}.toolbar{background:white;border:1px solid #dbe6f3;border-radius:15px;padding:15px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:18px;box-shadow:0 4px 18px #2336520b}.controls{display:flex;flex-wrap:wrap;gap:7px}.control{border:1px solid #d7e3f3;background:white;padding:10px 13px;color:#516583;border-radius:9px;font-size:12px;font-weight:650}.control[aria-pressed="true"]{background:#1c467f;color:white;border-color:#1c467f}.preview{max-width:1060px;margin:auto;transition:max-width .25s ease}.preview.mobile{max-width:390px}.browser{background:#fff;border:1px solid #d9e3f0;border-radius:15px;overflow:hidden;box-shadow:0 18px 48px #1f38521a}.window{height:29px;background:#f8faff;border-bottom:1px solid #e0e8f5;display:flex;align-items:center;gap:5px;padding:0 12px}.window>i{background:#cbd7e8;width:7px;height:7px;border-radius:50%}.window span{margin:auto;color:#91a1b7;font-size:10px}.topbar{padding:16px 5%;display:flex;align-items:center;justify-content:space-between;gap:12px}.logo{font-size:22px;font-weight:830;letter-spacing:-1px;white-space:nowrap}.logo span{color:#4387e6}.nav{display:flex;gap:19px;font-size:12px;font-weight:650;color:#7282a0}.call{white-space:nowrap;border-radius:9px;background:#247ae1;color:white;font-size:12px;padding:11px 14px;font-weight:750}.hero{background:#f6faff;display:flex;align-items:center;justify-content:space-between;min-height:238px;padding:31px 6%;position:relative;overflow:hidden;gap:15px}.hero-copy{position:relative;z-index:2;flex:1}.overline{color:#367cd4;font-size:11px;font-weight:780;letter-spacing:.7px;text-transform:uppercase}.hero h1{font-size:clamp(24px,3.2vw,39px);line-height:1.11;letter-spacing:-1.2px;margin:11px 0}.hero p{font-size:13px;color:#647b9b;max-width:465px;line-height:1.5;margin:0 0 18px}.chip{display:inline-block;border-radius:8px;background:#247ae1;color:#fff;padding:10px 15px;font-weight:700;font-size:12px}.master{position:relative;width:158px;height:188px;flex-shrink:0}.master:before{content:"";position:absolute;width:151px;height:151px;border-radius:50%;top:21px;left:2px;background:#e4efff}.master .torso{position:absolute;left:30px;bottom:-22px;width:108px;height:107px;background:#357fd8;border-radius:40px 40px 0 0;transform:rotate(-6deg)}.master .neck{position:absolute;background:#efb991;left:75px;top:103px;width:39px;height:32px}.master .face{position:absolute;background:#f0bd97;left:57px;top:51px;width:67px;height:77px;border-radius:43% 42% 47% 47%;transform:rotate(-8deg)}.master .hair{position:absolute;background:#253a5a;left:48px;top:39px;width:83px;height:40px;border-radius:38px 28px 17px 8px;transform:rotate(-12deg)}.master .eyes{position:absolute;left:82px;top:88px;letter-spacing:12px;font-size:10px;font-weight:900;color:#253a5a}.master .phoneobj{position:absolute;background:#263957;border:4px solid #92b9f5;width:30px;height:50px;left:31px;top:111px;border-radius:8px;transform:rotate(-16deg)}.master .detail{position:absolute;right:10px;bottom:1px;font-size:30px;color:#d3e7ff}.slider{background:linear-gradient(125deg,#e8f2ff,#d7e8ff);position:relative;display:flex;align-items:center;justify-content:space-between;overflow:hidden;min-height:240px;padding:28px 7%;gap:10px}.slide-copy{flex:1;position:relative;z-index:2;max-width:65%}.slider h2,.tile h2{font-size:clamp(24px,3vw,33px);line-height:1.1;letter-spacing:-.8px;margin:9px 0}.slider p,.tile p{font-size:13px;color:#526b8d;line-height:1.5;max-width:340px;margin:0 0 16px}.graphic{display:grid;place-items:center;min-width:130px;width:160px;height:155px;border-radius:40px;background:#c1dcff80;transform:rotate(-9deg)}.graphic svg{width:100px;height:100px;stroke:#2468be;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}.graphic svg .fill{fill:#b0d3ff;stroke:none}.slide-controls{position:absolute;bottom:15px;left:7%;display:flex;gap:7px;z-index:5}.dot{border:0;padding:0;width:7px;height:7px;border-radius:10px;background:#91b8e8}.dot.active{width:22px;background:#247ae1}.arrows{position:absolute;top:14px;right:18px;display:flex;gap:7px;z-index:6}.arr{width:30px;height:30px;background:#ffffffc9;border:1px solid #cbdff6;border-radius:50%;color:#22578c;font-size:20px;display:grid;place-items:center;line-height:1}.services{padding:22px 6%;background:white}.services strong{display:block;font-size:16px;margin-bottom:12px}.service-list{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.service-list>div{border:1px solid #e1eaf7;border-radius:10px;background:#f7faff;padding:15px 10px;font-size:12px;font-weight:700}.service-list b{color:#4485d6;margin-right:9px}.variant-b{display:grid;grid-template-columns:1fr .84fr;background:#f6faff;gap:13px;padding:23px 4%}.variant-b .hero{border-radius:12px;min-height:290px;padding:22px 8%}.variant-b .hero h1{font-size:clamp(23px,2.6vw,35px)}.variant-b .master{width:90px;transform:scale(.65);transform-origin:bottom right;margin-left:-65px;margin-right:-30px}.variant-b .slider{border-radius:12px;min-height:290px;padding:27px 6%;display:block}.variant-b .slider .slide-copy{max-width:100%}.variant-b .slider h2{font-size:clamp(20px,2.4vw,30px)}.variant-b .slider .graphic{height:90px;width:90px;min-width:90px;position:absolute;bottom:28px;right:15px;opacity:.7}.variant-b .slider .graphic svg{width:64px;height:64px}.variant-b .slider .slide-controls{left:6%}.c-section{padding:20px 4% 25px;background:#f7faff}.c-section>h2{font-size:19px;margin:0 0 14px}.peek-row{display:grid;grid-template-columns:12% 1fr 12%;gap:11px}.peeker{background:#d8e8fe;border-radius:13px;opacity:.75}.peek-row .slider{border-radius:13px;min-height:255px}.variant-d{background:white;padding:16px 4%;display:grid;grid-template-columns:1.65fr 1fr;gap:12px}.variant-d .slider{border-radius:11px;min-height:225px;padding:20px 6%}.variant-d .slider h2{font-size:27px}.variant-d .slider .graphic{width:105px;min-width:105px;height:110px}.variant-d .slider .graphic svg{width:72px;height:72px}.secondary-promos{display:flex;flex-direction:column;gap:10px}.tile{flex:1;min-width:0;background:#f1f6ff;border:1px solid #dbe8f9;border-radius:11px;padding:18px}.tile strong{font-size:16px;display:block;margin:9px 0}.tile small{font-size:11px;color:#6d83a1}.below{margin-top:16px;display:flex;justify-content:space-between;gap:10px;color:#627894;font-size:13px}.below strong{color:#1b365c}.preview.mobile .nav{display:none}.preview.mobile .topbar{padding:13px 15px}.preview.mobile .call{font-size:10px;padding:9px}.preview.mobile .hero{padding:24px 18px;min-height:226px}.preview.mobile .hero h1{font-size:25px}.preview.mobile .hero p{font-size:11px}.preview.mobile .master{transform:scale(.66);transform-origin:center right;margin-left:-100px;margin-right:-23px}.preview.mobile .hero-copy{min-width:0}.preview.mobile .hero-copy h1{max-width:265px}.preview.mobile .slider{min-height:333px;display:block;padding:27px 20px}.preview.mobile .slide-copy{max-width:100%}.preview.mobile .slider h2{font-size:26px}.preview.mobile .slider p{font-size:12px}.preview.mobile .graphic{min-width:0;width:108px;height:110px;margin:5px auto 0;transform:rotate(-9deg)}.preview.mobile .graphic svg{width:73px;height:73px}.preview.mobile .slide-controls{left:20px}.preview.mobile .service-list{gap:5px}.preview.mobile .service-list>div{font-size:10px;padding:11px 6px}.preview.mobile .variant-b{grid-template-columns:1fr;padding:14px}.preview.mobile .variant-b .hero{min-height:187px;padding:15px}.preview.mobile .variant-b .hero h1{font-size:23px}.preview.mobile .variant-b .master{display:none}.preview.mobile .variant-b .slider{min-height:239px}.preview.mobile .variant-b .slider .graphic{width:95px;height:100px;margin:0;bottom:12px}.preview.mobile .variant-b .slider .slide-copy{max-width:100%}.preview.mobile .peek-row{grid-template-columns:1fr}.preview.mobile .peek-row .peeker{display:none}.preview.mobile .variant-d{grid-template-columns:1fr}.preview.mobile .variant-d .slider{min-height:255px}.preview.mobile .secondary-promos{flex-direction:row}.preview.mobile .tile{padding:12px}.preview.mobile .tile strong{font-size:12px}.preview.mobile .tile small{font-size:9px}.preview.mobile .below{font-size:11px}.footer-note{font-size:12px;color:#7387a1;margin:14px 0 0;text-align:center}@media(max-width:700px){.nav{display:none}.title{font-size:22px}.toolbar{flex-direction:column}.variant-b{grid-template-columns:1fr}.variant-d{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+ <h1 class="title">iМастер — размещение баннеров на сайте</h1>
+ <p class="intro">Четыре варианта размещения, два размера экрана и шесть акций. Всё работает автономно, без внешних ресурсов и встроенной песочницы.</p>
+ <div class="toolbar">
+  <div class="controls" aria-label="Варианты расположения">
+   <button class="control" data-layout="a" aria-pressed="true">1. Под первым экраном</button>
+   <button class="control" data-layout="b" aria-pressed="false">2. Рядом с заголовком</button>
+   <button class="control" data-layout="c" aria-pressed="false">3. После услуг</button>
+   <button class="control" data-layout="d" aria-pressed="false">4. Баннер + анонсы</button>
+  </div>
+  <div class="controls" aria-label="Экран">
+   <button class="control" data-device="desktop" aria-pressed="true">Компьютер</button>
+   <button class="control" data-device="mobile" aria-pressed="false">Телефон</button>
+  </div>
+ </div>
+ <div class="preview desktop" id="preview"><div class="browser" id="browser"></div></div>
+ <div class="below"><span id="layout-caption"></span><strong id="size-caption"></strong></div>
+ <p class="footer-note">Демонстрационные макеты. Условия, даты и суммы скидок пока не утверждены.</p>
+</div>
+<script>
+(() => {
+  'use strict';
+  const slides = [
+    {tag:'Тематический день',title:'День аккумулятора',desc:'Специальное предложение на замену аккумулятора смартфона.',icon:'battery'},
+    {tag:'Тематический день',title:'День дисплея',desc:'Выгодные условия на замену разбитого экрана.',icon:'screen'},
+    {tag:'Тематический день',title:'День зарядки',desc:'Акция на ремонт разъёма зарядки после диагностики.',icon:'port'},
+    {tag:'Тематический день',title:'День хорошего звука',desc:'Специальное предложение на замену динамика.',icon:'speaker'},
+    {tag:'Постоянное предложение',title:'Студентам выгоднее',desc:'Особые условия ремонта по действующему студенческому билету.',icon:'student'},
+    {tag:'При замене дисплея',title:'Защитите новый экран',desc:'Скидка на защитное стекло при замене дисплея.',icon:'glass'}
+  ];
+  let layout='a', device='desktop', index=0;
+  const captions={a:['Большой баннер под первым экраном','1200 × 400 px'],b:['Баннер справа от заголовка','460 × 480 px'],c:['Карусель после популярных услуг','860 × 380 px'],d:['Главный баннер и два анонса','760 × 400 px']};
+  function graphic(kind){
+    const body={
+      battery:'<rect x="30" y="20" width="45" height="70" rx="8"/><path d="M43 12h19"/><path d="M56 31L43 56h14L47 77"/>',
+      screen:'<rect x="30" y="10" width="48" height="82" rx="8"/><path d="M42 29l14 17-11 13 19 12M40 80h28"/>',
+      port:'<path d="M26 65h55v16H26zM37 65V42h33v23M45 50h16M54 22v20"/><path d="M41 81v10m24-10v10"/>',
+      speaker:'<path d="M24 43h19l24-18v59L43 65H24zM79 42q18 15 0 30M88 32q28 27 0 49"/>',
+      student:'<path d="M13 40l43-22 43 22-43 22zM31 50v24q25 19 50 0V50M100 41v34"/>',
+      glass:'<rect x="26" y="11" width="56" height="85" rx="10"/><path d="M39 32l29 25M67 33L42 61M44 80h21"/>'
+    };
+    return `<div class="graphic" aria-hidden="true"><svg viewBox="0 0 112 112">${body[kind]}</svg></div>`;
+  }
+  function master(){return '<div class="master" aria-hidden="true"><div class="torso"></div><div class="neck"></div><div class="face"></div><div class="hair"></div><div class="eyes">• •</div><div class="phoneobj"></div><div class="detail">✦</div></div>';}
+  function hero(){return `<section class="hero"><div class="hero-copy"><div class="overline">Сервисный центр • Калининград</div><h1>Ремонт смартфонов, планшетов и ноутбуков</h1><p>Помогаем вернуть вашу технику к работе.</p><span class="chip">Позвонить в сервис</span></div>${master()}</section>`;}
+  function services(){return '<section class="services"><strong>Популярные услуги</strong><div class="service-list"><div><b>▣</b>Дисплей</div><div><b>ϟ</b>Аккумулятор</div><div><b>⌁</b>Разъём</div></div></section>';}
+  function slider(){const s=slides[index];return `<section class="slider" aria-label="Рекламные предложения"><div class="slide-copy"><div class="overline">${s.tag}</div><h2>${s.title}</h2><p>${s.desc}</p><span class="chip">Условия акции</span></div>${graphic(s.icon)}<div class="arrows"><button class="arr" data-step="-1" aria-label="Предыдущая акция">‹</button><button class="arr" data-step="1" aria-label="Следующая акция">›</button></div><div class="slide-controls">${slides.map((_,i)=>`<button class="dot${i===index?' active':''}" data-slide="${i}" aria-label="Акция ${i+1}" aria-current="${i===index?'true':'false'}"></button>`).join('')}</div></section>`;}
+  function tile(title,tag){return `<div class="tile"><div class="overline">${tag}</div><strong>${title}</strong><small>Подробнее об условиях →</small></div>`;}
+  function site(){
+    let content='';
+    if(layout==='a') content=hero()+slider()+services();
+    if(layout==='b') content=`<main class="variant-b">${hero()}${slider()}</main>`+services();
+    if(layout==='c') content=hero()+services()+`<section class="c-section"><h2>Дни выгодного ремонта</h2><div class="peek-row"><div class="peeker"></div>${slider()}<div class="peeker"></div></div></section>`;
+    if(layout==='d') content=hero()+`<section class="variant-d">${slider()}<aside class="secondary-promos">${tile('Студентам выгоднее','Постоянная акция')}${tile('День дисплея','Ближайшая акция')}</aside></section>`+services();
+    return `<div class="window"><i></i><i></i><i></i><span>iМастер · пример нового сайта</span></div><header class="topbar"><div class="logo">i<span>Мастер</span></div><nav class="nav"><span>Услуги</span><span>Цены</span><span>Акции</span><span>Контакты</span></nav><span class="call">Позвонить</span></header>${content}`;
+  }
+  function render(){
+    document.querySelector('#browser').innerHTML=site();
+    document.querySelector('#preview').className=`preview ${device}`;
+    document.querySelector('#layout-caption').textContent=captions[layout][0];
+    document.querySelector('#size-caption').textContent=captions[layout][1];
+    document.querySelectorAll('[data-layout]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.layout===layout)));
+    document.querySelectorAll('[data-device]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.device===device)));
+  }
+  document.addEventListener('click',e=>{
+    const b=e.target.closest('button'); if(!b)return;
+    if(b.dataset.layout){layout=b.dataset.layout;render();}
+    if(b.dataset.device){device=b.dataset.device;render();}
+    if(b.dataset.step){index=(index+slides.length+Number(b.dataset.step))%slides.length;render();}
+    if(b.dataset.slide){index=Number(b.dataset.slide);render();}
+  });
+  render();
+  // Auto-slide only while the preview is visible. Manual controls always work.
+  let lastActivity=Date.now();
+  const preview=document.querySelector('#preview');
+  preview.addEventListener('pointerenter',()=>lastActivity=Date.now());
+  preview.addEventListener('focusin',()=>lastActivity=Date.now());
+  document.addEventListener('click',()=>lastActivity=Date.now());
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    setInterval(()=>{
+      if (document.hidden || Date.now()-lastActivity<5500) return;
+      index=(index+1)%slides.length;
+      render();
+    },6500);
+  }
+  document.addEventListener('keydown',e=>{
+    if (e.key==='ArrowLeft' || e.key==='ArrowRight') {
+      index=(index+slides.length+(e.key==='ArrowRight'?1:-1))%slides.length;
+      lastActivity=Date.now();render();
+    }
+  });
+})();
+</script>
+</body>
+</html>
