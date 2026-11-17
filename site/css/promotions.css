@@ -1,0 +1,249 @@
+.promotions {
+  color: #1b2b57;
+  margin-block: 24px 32px;
+}
+
+.promotions h2 {
+  font-size: clamp(22px, 3vw, 28px);
+  margin: 0 0 12px;
+}
+
+.promo-slides {
+  display: grid;
+  gap: 14px;
+}
+
+.promo-slide {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 24px;
+  min-height: 360px;
+  min-height: clamp(340px, 32vw, 400px);
+  padding: clamp(20px, 3.2vw, 48px);
+  border: 1px solid #dce7fa;
+  border-radius: 22px;
+  background: radial-gradient(ellipse at 88% 30%, #d9eaff, transparent 55%), #f0f6ff;
+}
+
+.promo-slide-text {
+  grid-template-columns: 1fr;
+}
+
+.promo-slides[data-carousel] .promo-slide {
+  grid-area: 1 / 1;
+}
+
+.promo-slide[aria-hidden="true"] {
+  visibility: hidden;
+}
+
+.promo-copy {
+  display: grid;
+  justify-items: start;
+  gap: 8px;
+  overflow-wrap: anywhere;
+}
+
+.promo-copy h3,
+.promo-copy p {
+  margin: 0;
+}
+
+.promo-copy h3 {
+  font-size: clamp(26px, 4vw, 46px);
+  line-height: 1.08;
+  letter-spacing: -.035em;
+}
+
+.promo-copy .promo-day {
+  background: #fff;
+  border-radius: 28px;
+  padding: 4px 13px;
+  font-weight: 700;
+}
+
+.promo-discount {
+  font-size: clamp(28px, 4vw, 42px);
+  color: #1e5cb4;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.promo-condition {
+  font-size: clamp(15px, 2vw, 18px);
+}
+
+.promo-code strong {
+  padding: 2px 7px;
+  background: #fff;
+  border-radius: 6px;
+}
+
+.promo-copy .button {
+  margin-top: 6px;
+}
+
+.promo-art {
+  width: min(100%, 340px);
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: contain;
+  justify-self: center;
+  mix-blend-mode: multiply;
+}
+
+.promo-controls,
+.promo-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.promo-controls {
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.promo-dots {
+  flex-wrap: wrap;
+}
+
+.promo-controls button {
+  min-width: 44px;
+  min-height: 44px;
+  border: 1px solid #dce7fa;
+  border-radius: 10px;
+  background: #fff;
+  color: #1b2b57;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.promo-controls button:focus-visible,
+.promo-copy a:focus-visible {
+  outline: 3px solid #2868d9;
+  outline-offset: 2px;
+}
+
+.promo-controls .promo-dot {
+  min-width: 32px;
+  padding: 0;
+  border-color: transparent;
+}
+
+.promo-dot::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin-inline: auto;
+  border-radius: 50%;
+  background: #a0b7d9;
+}
+
+.promo-dot[aria-pressed="true"]::before {
+  background: #1e5cb4;
+}
+
+.promo-controls .promo-play {
+  padding-inline: 12px;
+  font-size: 13px;
+}
+
+.promo-status {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@media (max-width: 680px) {
+  .promo-slide {
+    grid-template-columns: minmax(0, 1fr);
+    min-height: 0;
+    gap: 12px;
+    padding: 20px;
+  }
+
+  .promo-art {
+    width: min(46%, 160px);
+  }
+
+  .promo-copy .button {
+    min-height: 44px;
+  }
+}
+
+.promo-print {
+  display: none;
+}
+
+.promo-code strong {
+  display: inline-block;
+  border: 2px solid #f4a800;
+  padding: 2px 8px;
+  margin-inline-start: 3px;
+}
+
+@media (min-width: 901px) {
+  .promo-slide-printed {
+    grid-template-columns: minmax(0, 1fr);
+    align-content: start;
+    gap: 0;
+    min-height: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .promo-slide-printed .promo-print,
+  .promo-print img {
+    display: block;
+    width: 100%;
+  }
+
+  .promo-print img {
+    height: auto;
+    aspect-ratio: 3 / 1;
+    object-fit: contain;
+  }
+
+  .promo-slide-printed .promo-art {
+    display: none;
+  }
+
+  .promo-slide-printed .promo-copy {
+    justify-items: center;
+    padding: 10px 16px 14px;
+  }
+
+  .promo-slide-printed .promo-copy > :not(.button) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .promo-slide-printed .promo-copy .button {
+    margin: 0;
+  }
+}
+
+.promo-code-guided {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px 9px;
+}
+
+.promo-code-guided strong {
+  margin-inline-start: 0;
+}
