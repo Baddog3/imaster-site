@@ -1,5 +1,5 @@
 """Check preservation, fallback HTML, stable links and failure behavior."""
-import csv, json, subprocess, sys, tempfile, shutil
+import csv, io, json, subprocess, sys, tempfile, shutil
 from pathlib import Path
 from html.parser import HTMLParser
 ROOT=Path(__file__).resolve().parents[1]
@@ -10,6 +10,18 @@ class Parser(HTMLParser):
  def handle_starttag(self,t,a): self.tags.append((t,dict(a)))
 
 def run(root):return subprocess.run([sys.executable,str(root/'tools/build.py')],capture_output=True,text=True)
+
+def sheet_prices(rows):
+    output = io.StringIO()
+    csv.writer(output).writerows([build.SHEET_FIELDS, *rows])
+    return build.read_prices(output.getvalue())
+
+values = ['Ноутбуки', 'Lenovo', 'ThinkPad T14', 'Замена аккумулятора', '3500', '', '']
+hidden = [*values[:2], 'ThinkPad T15', *values[3:], 'Нет']
+assert sheet_prices([[''] * 8, [*values, 'Да'], hidden]) == [dict(zip(build.FIELDS, values))]
+assert 'ThinkPad T14' in build.render(sheet_prices([[*values, '']]))
+assert 'ThinkPad T15' not in build.render(sheet_prices([[*values, 'Да'], hidden]))
+assert 'catalog-model' not in build.render(sheet_prices([hidden]))
 with tempfile.TemporaryDirectory() as td:
  root=Path(td)/'project';shutil.copytree(ROOT,root)
  assert run(root).returncode==0

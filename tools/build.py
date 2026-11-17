@@ -8,6 +8,7 @@ import update_promotions as promotions
 ROOT = Path(__file__).resolve().parents[1]
 CATEGORIES = {'Смартфоны':'smartphones','Планшеты':'tablets','Ноутбуки':'laptops','Аксессуары':'accessories'}
 FIELDS = ['category','brand','model','service','price','time','warranty']
+SHEET_FIELDS = ['Категория','Бренд','Модель','Услуга','Цена, ₽','Срок','Гарантия','На сайте']
 
 def source(name, env):
     url = os.environ.get(env, '').strip()
@@ -22,16 +23,37 @@ def source(name, env):
     return data.decode('utf-8-sig')
 
 def read_prices(text):
-    reader=csv.DictReader(io.StringIO(text),delimiter=';' if ';' in text.splitlines()[0] else ',')
-    if reader.fieldnames != FIELDS:
-        raise ValueError('prices.csv: неверные столбцы')
-    rows=list(reader)
-    if not rows: raise ValueError('Прайс пуст')
-    for row in rows:
-        if None in row or any(v is None for v in row.values()): raise ValueError('Неверная строка прайса')
-        if row['category'] not in CATEGORIES or not all(row[k].strip() for k in ['brand','model','service','price']):
-            raise ValueError('Не заполнены обязательные поля прайса')
-        if not re.fullmatch(r'[0-9][0-9 /–—.,-]*',row['price']): raise ValueError('Неверный формат цены')
+    delimiter = ';' if ';' in text.partition('\n')[0] else ','
+    reader = csv.reader(io.StringIO(text), delimiter=delimiter, strict=True)
+    header = next(reader, [])
+    if header not in (FIELDS, SHEET_FIELDS):
+        raise ValueError('Прайс: проверьте заголовки в первой строке')
+    rows = []
+    has_entries = False
+    for values in reader:
+        values = [value.strip() for value in values]
+        if not any(values):
+            continue
+        has_entries = True
+        line = f'Прайс, строка {reader.line_num}'
+        if len(values) != len(header):
+            raise ValueError(f'{line}: неверное число столбцов')
+        if header == SHEET_FIELDS:
+            status = values.pop().casefold()
+            if status == 'нет':
+                continue
+            if status not in ('', 'да'):
+                raise ValueError(f'{line}: выберите «Да» или «Нет» в столбце «На сайте»')
+        row = dict(zip(FIELDS, values))
+        if row['category'] not in CATEGORIES:
+            raise ValueError(f'{line}: выберите категорию из списка')
+        if not all(row[field] for field in ('brand', 'model', 'service', 'price')):
+            raise ValueError(f'{line}: заполните бренд, модель, услугу и цену')
+        if not re.fullmatch(r'[0-9][0-9 /–—.,\-\u00a0\u202f]*', row['price']):
+            raise ValueError(f'{line}: укажите цену числом или диапазоном без символа ₽')
+        rows.append(row)
+    if not has_entries:
+        raise ValueError('Прайс пуст. Чтобы временно скрыть все позиции, выберите «Нет»')
     return rows
 
 def model_id(category, model):
@@ -39,6 +61,8 @@ def model_id(category, model):
     return category+'-'+slug+'-'+hashlib.sha256(model.encode()).hexdigest()[:8]
 
 def render(rows):
+    if not rows:
+        return '<p>Уточните стоимость ремонта <a href="tel:+74012905015">по телефону</a>.</p>'
     cats=[];buttons=[];sections=[]
     for category, key in CATEGORIES.items():
         models=sorted({r['model'] for r in rows if r['category']==category})

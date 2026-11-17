@@ -3,3 +3,4 @@
   publish = "site"
 [build.environment]
   PYTHON_VERSION = "3.12"
+  PRICES_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTibqJNgtOKo5hFojrmQQuOrA_MuLxCsP_jwcaKe6v6qlKgBIWCAccqxCp5-7nNLwr-KSj6fSQZYw8X/pub?gid=746456487&single=true&output=csv"
