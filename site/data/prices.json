@@ -1,0 +1,2063 @@
+[
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 5/5C/5S",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "1700",
+    "time": "2–3 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 5/5C/5S",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог)",
+    "price": "1890",
+    "time": "1 час",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 5/5C/5S",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (оригинал)",
+    "price": "2900",
+    "time": "1 час",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 5/5C/5S",
+    "service": "Замена задней крышки",
+    "price": "2300",
+    "time": "3 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 5/5C/5S",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "1000",
+    "time": "15 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 5/5C/5S",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "1600",
+    "time": "15 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 5/5C/5S",
+    "service": "Замена вибромотора",
+    "price": "800",
+    "time": "40 мин",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 5/5C/5S",
+    "service": "Замена основной камеры",
+    "price": "900",
+    "time": "30–60 мин",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 5/5C/5S",
+    "service": "Ремонт кнопки Power",
+    "price": "900",
+    "time": "2 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 5/5C/5S",
+    "service": "Замена нижнего шлейфа с системным разъёмом",
+    "price": "1100",
+    "time": "1 час",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 5/5C/5S",
+    "service": "Замена динамика",
+    "price": "800",
+    "time": "40 мин",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 5/5C/5S",
+    "service": "Замена контроллера зарядки (U2)",
+    "price": "1800",
+    "time": "24 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "1990",
+    "time": "2–3 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог)",
+    "price": "2200",
+    "time": "1 час",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (оригинал)",
+    "price": "3200",
+    "time": "1 час",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6",
+    "service": "Замена задней крышки",
+    "price": "2490",
+    "time": "2–3 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "1000",
+    "time": "15 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "1700",
+    "time": "15 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6",
+    "service": "Замена камеры",
+    "price": "1190",
+    "time": "40 мин",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6",
+    "service": "Замена динамика",
+    "price": "900",
+    "time": "40 мин",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6 Plus",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "2500",
+    "time": "2–3 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6 Plus",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог)",
+    "price": "2700",
+    "time": "1 час",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6 Plus",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (оригинал)",
+    "price": "3700",
+    "time": "1 час",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6 Plus",
+    "service": "Замена задней крышки",
+    "price": "3500",
+    "time": "3 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6 Plus",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "1200",
+    "time": "15 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6 Plus",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "1900",
+    "time": "15 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6 Plus",
+    "service": "Замена камеры",
+    "price": "1500",
+    "time": "50 мин",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone SE",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "1700",
+    "time": "2–3 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone SE",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог)",
+    "price": "1890",
+    "time": "1,5 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone SE",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (оригинал)",
+    "price": "2900",
+    "time": "1,5 часа",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone SE",
+    "service": "Замена задней крышки",
+    "price": "2800",
+    "time": "3–4 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone SE",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "1000",
+    "time": "20 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone SE",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "1700",
+    "time": "20 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6S",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "2200",
+    "time": "3–4 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6S",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог)",
+    "price": "2300",
+    "time": "1,5 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6S",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (оригинал)",
+    "price": "3500",
+    "time": "1,5 часа",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6S",
+    "service": "Замена задней крышки",
+    "price": "2800",
+    "time": "3–4 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6S",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "1100",
+    "time": "30 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6S",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "1700",
+    "time": "30 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6S Plus",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "2500",
+    "time": "5–6 часов",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6S Plus",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог)",
+    "price": "2700",
+    "time": "1,5 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6S Plus",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (оригинал)",
+    "price": "4000",
+    "time": "1,5 часа",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6S Plus",
+    "service": "Замена задней крышки",
+    "price": "3500",
+    "time": "4–5 часов",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6S Plus",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "1100",
+    "time": "1,5 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 6S Plus",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "1900",
+    "time": "1,5 часа",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 7",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "2500",
+    "time": "4 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 7",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог)",
+    "price": "2500",
+    "time": "1 час",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 7",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (оригинал)",
+    "price": "4000",
+    "time": "1 час",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 7",
+    "service": "Замена задней крышки",
+    "price": "3200",
+    "time": "4–5 часов",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 7",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "1100",
+    "time": "30 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 7",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "1800",
+    "time": "30 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 7 Plus",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "2700",
+    "time": "4 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 7 Plus",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог)",
+    "price": "2900",
+    "time": "1 час",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 7 Plus",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (оригинал)",
+    "price": "4500",
+    "time": "1 час",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 7 Plus",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "1200",
+    "time": "20 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 7 Plus",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "1900",
+    "time": "20 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 8",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "2500",
+    "time": "5 часов",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 8",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог)",
+    "price": "3000",
+    "time": "1,5 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 8",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (оригинал)",
+    "price": "4500",
+    "time": "1,5 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 8",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "1200",
+    "time": "20 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 8",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "1900",
+    "time": "20 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 8 Plus",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "2900",
+    "time": "5 часов",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 8 Plus",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог)",
+    "price": "2900",
+    "time": "1,5 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 8 Plus",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (оригинал)",
+    "price": "4700",
+    "time": "3 часа",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 8 Plus",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "1300",
+    "time": "20 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 8 Plus",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "2200",
+    "time": "20 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone SE 2",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "2500",
+    "time": "5 часов",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone SE 2",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог)",
+    "price": "3000",
+    "time": "1,5 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone SE 2",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "1400",
+    "time": "20 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone SE 2",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "2300",
+    "time": "20 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone X",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "5500",
+    "time": "24 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone X",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AA)",
+    "price": "4500",
+    "time": "3 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone X",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AAA)",
+    "price": "6500",
+    "time": "3 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone X",
+    "service": "Восстановление True Tone",
+    "price": "1000",
+    "time": "1 час",
+    "warranty": ""
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone X",
+    "service": "Замена камеры",
+    "price": "5300",
+    "time": "1,5 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone X",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "1900",
+    "time": "30 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone X",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "2900",
+    "time": "30 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone XR",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "5500",
+    "time": "24 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone XR",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AA)",
+    "price": "5000",
+    "time": "3 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone XR",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AAA)",
+    "price": "7000",
+    "time": "3 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone XR",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "2200",
+    "time": "20 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone XR",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "3500",
+    "time": "20 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone XS",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "6000",
+    "time": "24 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone XS",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AA)",
+    "price": "5000",
+    "time": "3 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone XS",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AAA)",
+    "price": "6500",
+    "time": "3 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone XS",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "2100",
+    "time": "30 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone XS",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "3300",
+    "time": "30 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone XS Max",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "7000",
+    "time": "24 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone XS Max",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AA)",
+    "price": "6500",
+    "time": "3 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone XS Max",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AAA)",
+    "price": "8000",
+    "time": "3 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone XS Max",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "2500",
+    "time": "20 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone XS Max",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "3500",
+    "time": "30 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 11",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "5500",
+    "time": "24 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 11",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AA)",
+    "price": "5000",
+    "time": "3 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 11",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AAA)",
+    "price": "7000",
+    "time": "3 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 11",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "2200",
+    "time": "20 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 11",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "3500",
+    "time": "20 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 11 Pro",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "8000",
+    "time": "24 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 11 Pro",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AA)",
+    "price": "7500",
+    "time": "3 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 11 Pro",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AAA)",
+    "price": "11000",
+    "time": "3 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 11 Pro",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "3500",
+    "time": "20 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 11 Pro",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "4700",
+    "time": "20 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 11 Pro Max",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "9500",
+    "time": "24 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 11 Pro Max",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AA)",
+    "price": "8000",
+    "time": "3 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 11 Pro Max",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AAA)",
+    "price": "12000",
+    "time": "3 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 11 Pro Max",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "4700",
+    "time": "60 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 12",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "12000",
+    "time": "5 часов",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 12",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AA)",
+    "price": "7500",
+    "time": "1,5 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 12",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AAA)",
+    "price": "12000",
+    "time": "1,5 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 12",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "4300",
+    "time": "30 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 12",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "5500",
+    "time": "30 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 12 Pro",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "11000",
+    "time": "5 часов",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 12 Pro",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AA)",
+    "price": "8000",
+    "time": "1,5 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 12 Pro",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AAA)",
+    "price": "16000",
+    "time": "1,5 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 12 Pro",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "4800",
+    "time": "30 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 12 Pro",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "6600",
+    "time": "30 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 12 mini",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "12000",
+    "time": "5 часов",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 12 mini",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AA)",
+    "price": "8000",
+    "time": "1,5 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 12 mini",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AAA)",
+    "price": "18000",
+    "time": "1,5 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 12 mini",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "4300",
+    "time": "30 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 12 mini",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "5500",
+    "time": "30 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 12 Pro Max",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "15000",
+    "time": "5 часов",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 12 Pro Max",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AA)",
+    "price": "10500",
+    "time": "1,5 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 12 Pro Max",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AAA)",
+    "price": "18000",
+    "time": "1,5 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 12 Pro Max",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "5500",
+    "time": "30 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 12 Pro Max",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "6500",
+    "time": "30 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "15000",
+    "time": "5 часов",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AA)",
+    "price": "8500",
+    "time": "1,5 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AAA)",
+    "price": "14000",
+    "time": "1,5 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "4800",
+    "time": "30 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "7000",
+    "time": "30 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 mini",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "16000",
+    "time": "5 часов",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 mini",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AA)",
+    "price": "9000",
+    "time": "1,5 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 mini",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AAA)",
+    "price": "15000",
+    "time": "1,5 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 mini",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "5000",
+    "time": "30 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 mini",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "8000",
+    "time": "30 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "18000",
+    "time": "5 часов",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AA)",
+    "price": "12500",
+    "time": "1,5 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AAA)",
+    "price": "24000",
+    "time": "1,5 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "5000",
+    "time": "30 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "9000",
+    "time": "30 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad 2/3/4",
+    "service": "Замена сенсорного стекла",
+    "price": "2490",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad 2/3/4",
+    "service": "Замена сенсорного стекла (аналог)",
+    "price": "2250",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad 2/3/4",
+    "service": "Замена экрана",
+    "price": "3900",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad 2/3/4",
+    "service": "Замена аккумулятора",
+    "price": "2500",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad 2/3/4",
+    "service": "Замена шлейфа кнопки громкости и включения",
+    "price": "1400",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad 2/3/4",
+    "service": "Замена аудиоразъёма",
+    "price": "1500",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad 2/3/4",
+    "service": "Замена передней камеры",
+    "price": "1500",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad 2/3/4",
+    "service": "Замена задней камеры",
+    "price": "1500",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad 2/3/4",
+    "service": "Замена разъёма зарядки",
+    "price": "1500",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad 2/3/4",
+    "service": "Замена динамика",
+    "price": "1500",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad mini 1/2/3",
+    "service": "Замена сенсорного стекла",
+    "price": "2790",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad mini 1/2/3",
+    "service": "Замена сенсорного стекла (аналог)",
+    "price": "2290",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad mini 1/2/3",
+    "service": "Замена экрана",
+    "price": "3900",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad mini 1/2/3",
+    "service": "Замена аккумулятора",
+    "price": "2500/3000/3000",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad mini 1/2/3",
+    "service": "Замена шлейфа кнопки громкости и включения",
+    "price": "1500",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad mini 1/2/3",
+    "service": "Замена аудиоразъёма",
+    "price": "1500",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad mini 1/2/3",
+    "service": "Замена передней камеры",
+    "price": "1500",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad mini 1/2/3",
+    "service": "Замена задней камеры",
+    "price": "1500",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad mini 1/2/3",
+    "service": "Замена разъёма зарядки",
+    "price": "1500",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad mini 1/2/3",
+    "service": "Замена динамика",
+    "price": "1500",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad mini 4",
+    "service": "Замена сенсорного стекла",
+    "price": "5000",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad Air",
+    "service": "Замена сенсорного стекла",
+    "price": "2900",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad Air",
+    "service": "Замена экрана",
+    "price": "4800",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad Air",
+    "service": "Замена аккумулятора",
+    "price": "2800",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad Air",
+    "service": "Замена шлейфа кнопки громкости и включения",
+    "price": "1500",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad Air",
+    "service": "Замена аудиоразъёма",
+    "price": "1500",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad Air",
+    "service": "Замена передней камеры",
+    "price": "1500",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad Air",
+    "service": "Замена задней камеры",
+    "price": "1500",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad Air",
+    "service": "Замена разъёма зарядки",
+    "price": "1700",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad Air",
+    "service": "Замена динамика",
+    "price": "1500",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad Air 2",
+    "service": "Замена стекла",
+    "price": "8000",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad Air 2",
+    "service": "Замена экрана",
+    "price": "10000",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad Air 2",
+    "service": "Замена аккумулятора",
+    "price": "3500",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad 2018 (A1893)",
+    "service": "Замена сенсорного стекла",
+    "price": "3900",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad 2018 (A1893)",
+    "service": "Замена экрана",
+    "price": "6000",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad 2018 (A1893)",
+    "service": "Замена аккумулятора",
+    "price": "2800",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad 2019 (A2197)",
+    "service": "Замена сенсорного стекла",
+    "price": "5500",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Планшеты",
+    "brand": "Apple",
+    "model": "iPad Pro 12.9 (2015)",
+    "service": "Замена аккумулятора",
+    "price": "4300",
+    "time": "",
+    "warranty": ""
+  },
+  {
+    "category": "Ноутбуки",
+    "brand": "Apple",
+    "model": "MacBook",
+    "service": "Чистка / диагностика (от пыли / после воды)",
+    "price": "1800",
+    "time": "24 часа",
+    "warranty": ""
+  },
+  {
+    "category": "Ноутбуки",
+    "brand": "Apple",
+    "model": "MacBook",
+    "service": "Установка SSD",
+    "price": "900–1500",
+    "time": "1 час",
+    "warranty": ""
+  },
+  {
+    "category": "Ноутбуки",
+    "brand": "Apple",
+    "model": "MacBook",
+    "service": "Переустановка ОС",
+    "price": "1500",
+    "time": "4 часа",
+    "warranty": ""
+  },
+  {
+    "category": "Аксессуары",
+    "brand": "Apple",
+    "model": "AirPods",
+    "service": "Замена аккумулятора (комплект)",
+    "price": "3200–3800",
+    "time": "24 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Аксессуары",
+    "brand": "Apple",
+    "model": "Apple Watch",
+    "service": "Замена аккумулятора",
+    "price": "2600–4500",
+    "time": "24 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "15000",
+    "time": "5 часов",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AA)",
+    "price": "10500",
+    "time": "1,5 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AAA)",
+    "price": "18000",
+    "time": "1,5 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro",
+    "service": "Замена задней крышки",
+    "price": "8000",
+    "time": "24 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro",
+    "service": "Замена защитного стекла задней камеры",
+    "price": "3000",
+    "time": "3 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "5500",
+    "time": "30 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "6500",
+    "time": "30 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro",
+    "service": "Замена нижнего шлейфа с системным разъёмом",
+    "price": "6500",
+    "time": "3 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro",
+    "service": "Замена шлейфа кнопок громкости и включения",
+    "price": "4300",
+    "time": "3 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro",
+    "service": "Замена динамика",
+    "price": "4400",
+    "time": "2 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro Max",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "15000",
+    "time": "5 часов",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro Max",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AA)",
+    "price": "8500",
+    "time": "1,5 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro Max",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AAA)",
+    "price": "14000",
+    "time": "1,5 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro Max",
+    "service": "Замена задней крышки",
+    "price": "8000",
+    "time": "24 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro Max",
+    "service": "Замена защитного стекла задней камеры",
+    "price": "2800",
+    "time": "3 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro Max",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "4800",
+    "time": "30 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro Max",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "7000",
+    "time": "30 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro Max",
+    "service": "Замена нижнего шлейфа с системным разъёмом",
+    "price": "6600",
+    "time": "3 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro Max",
+    "service": "Замена шлейфа кнопок громкости и включения",
+    "price": "4000",
+    "time": "3 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro Max",
+    "service": "Замена динамика",
+    "price": "4200",
+    "time": "2 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "16000",
+    "time": "5 часов",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AA)",
+    "price": "9000",
+    "time": "1,5 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AAA)",
+    "price": "15000",
+    "time": "1,5 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14",
+    "service": "Замена задней крышки",
+    "price": "9000",
+    "time": "24 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14",
+    "service": "Замена защитного стекла задней камеры",
+    "price": "2800",
+    "time": "3 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "5000",
+    "time": "30 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "8000",
+    "time": "30 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14",
+    "service": "Замена нижнего шлейфа с системным разъёмом",
+    "price": "7000",
+    "time": "3 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14",
+    "service": "Замена динамика",
+    "price": "4200",
+    "time": "2 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14 Plus",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "18000",
+    "time": "5 часов",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14 Plus",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AA)",
+    "price": "12500",
+    "time": "1,5 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14 Plus",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AAA)",
+    "price": "24000",
+    "time": "1,5 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14 Plus",
+    "service": "Замена задней крышки",
+    "price": "9000",
+    "time": "24 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14 Plus",
+    "service": "Замена защитного стекла задней камеры",
+    "price": "2800",
+    "time": "3 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14 Plus",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "5000",
+    "time": "30 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14 Plus",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "9000",
+    "time": "30 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14 Plus",
+    "service": "Замена нижнего шлейфа с системным разъёмом",
+    "price": "8000",
+    "time": "3 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14 Pro",
+    "service": "Замена отдельно стекла дисплея",
+    "price": "18000",
+    "time": "5 часов",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14 Pro",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AA)",
+    "price": "12500",
+    "time": "1,5 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14 Pro",
+    "service": "Замена стекла в сборе с сенсором и дисплеем (аналог AAA)",
+    "price": "24000",
+    "time": "1,5 часа",
+    "warranty": "60 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14 Pro",
+    "service": "Замена задней крышки",
+    "price": "9000",
+    "time": "24 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14 Pro",
+    "service": "Замена защитного стекла задней камеры",
+    "price": "2800",
+    "time": "3 часа",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14 Pro",
+    "service": "Замена аккумулятора (аналог)",
+    "price": "5000",
+    "time": "30 мин",
+    "warranty": "30 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14 Pro",
+    "service": "Замена аккумулятора (оригинал)",
+    "price": "9000",
+    "time": "30 мин",
+    "warranty": "90 дней"
+  },
+  {
+    "category": "Смартфоны",
+    "brand": "Apple",
+    "model": "iPhone 14 Pro",
+    "service": "Замена нижнего шлейфа с системным разъёмом",
+    "price": "8000",
+    "time": "3 часа",
+    "warranty": "60 дней"
+  }
+]
