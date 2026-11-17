@@ -9,6 +9,9 @@ ROOT = Path(__file__).resolve().parents[1]
 CATEGORIES = {'Смартфоны':'smartphones','Планшеты':'tablets','Ноутбуки':'laptops','Аксессуары':'accessories'}
 FIELDS = ['category','brand','model','service','price','time','warranty']
 SHEET_FIELDS = ['Категория','Бренд','Модель','Услуга','Цена, ₽','Срок','Гарантия','На сайте']
+PUBLISHED_GOOGLE_CSV = re.compile(
+    r'https://docs\.google\.com/spreadsheets/d/e/[A-Za-z0-9_-]+/pub\?gid=\d+&single=true&output=csv'
+)
 
 def source(name, env):
     url = os.environ.get(env, '').strip()
@@ -99,7 +102,11 @@ def main():
         slides=promotions.read_slides()
     for slide in slides:
         if slide[6]: raise ValueError('Очистите «Готовый баннер для ПК»: условия выводятся единым текстом на всех экранах')
-    outputs={ROOT/'site/ceny.html':replace_block((ROOT/'site/ceny.html').read_text(),'<!-- catalog:start -->','<!-- catalog:end -->',render(rows)), ROOT/'site/index.html':replace_block((ROOT/'site/index.html').read_text(),promotions.START,promotions.END,promotions.render(slides)),ROOT/'site/data/prices.json':json.dumps(rows,ensure_ascii=False,indent=2)+'\n'}
+    catalog = render(rows)
+    csv_url = os.environ.get('PRICES_CSV_URL', '').strip()
+    if PUBLISHED_GOOGLE_CSV.fullmatch(csv_url):
+        catalog = f'<!-- prices-csv {csv_url} -->\n{catalog}'
+    outputs={ROOT/'site/ceny.html':replace_block((ROOT/'site/ceny.html').read_text(),'<!-- catalog:start -->','<!-- catalog:end -->',catalog), ROOT/'site/index.html':replace_block((ROOT/'site/index.html').read_text(),promotions.START,promotions.END,promotions.render(slides)),ROOT/'site/data/prices.json':json.dumps(rows,ensure_ascii=False,indent=2)+'\n'}
     for path,text in outputs.items():
         draft=path.with_suffix(path.suffix+'.tmp');draft.write_text(text);draft.replace(path)
     print(f'Готово: {len(rows)} цен, {len(slides)} акций.')
