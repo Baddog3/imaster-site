@@ -19,7 +19,9 @@ def sheet_prices(rows):
 values = ['Ноутбуки', 'Lenovo', 'ThinkPad T14', 'Замена аккумулятора', '3500', '', '']
 hidden = [*values[:2], 'ThinkPad T15', *values[3:], 'Нет']
 assert sheet_prices([[''] * 8, [*values, 'Да'], hidden]) == [dict(zip(build.FIELDS, values))]
-assert 'ThinkPad T14' in build.render(sheet_prices([[*values, '']]))
+thinkpad_html = build.render(sheet_prices([[*values, '']]))
+assert 'ThinkPad T14' in thinkpad_html
+assert '<span class="price-amount">3\u00a0500\u00a0₽</span>' in thinkpad_html
 assert 'ThinkPad T15' not in build.render(sheet_prices([[*values, 'Да'], hidden]))
 assert 'catalog-model' not in build.render(sheet_prices([hidden]))
 with tempfile.TemporaryDirectory() as td:
@@ -33,6 +35,8 @@ with tempfile.TemporaryDirectory() as td:
  assert all('hidden' not in a for a in sections)
  assert all('hidden' not in a for t,a in p.tags if a.get('id')=='catalog-service-step')
  ids=[a['id'] for t,a in p.tags if 'id' in a];assert len(ids)==len(set(ids))
+ tables=[a for t,a in p.tags if t=='table' and a.get('class')=='catalog-table']
+ assert {a['aria-labelledby'] for a in tables}=={a['id']+'-title' for a in sections}
  for t,a in p.tags:
   if a.get('class')=='catalog-model': assert a['href'][1:] in ids
  # Reordering rows must preserve every model URL.

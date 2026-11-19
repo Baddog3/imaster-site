@@ -63,28 +63,54 @@ def model_id(category, model):
     slug=re.sub(r'[^a-z0-9]+','-',model.lower()).strip('-') or 'model'
     return category+'-'+slug+'-'+hashlib.sha256(model.encode()).hexdigest()[:8]
 
+def render_service(row):
+    amount = re.sub(r'(?<![\d.,])[0-9]{4,}',
+                    lambda match: re.sub(r'(?<=[0-9])(?=(?:[0-9]{3})+$)', '\u00a0', match[0]),
+                    row['price'])
+    # The price is already in rubles in both data sources.
+    note = '<small class="price-note">Уточните цену по телефону.</small>' if '/' in row['price'] else ''
+    return (f'<tr role="row"><td role="cell">{e(row["service"])}</td>'
+            f'<td role="cell"><span class="price-amount">{e(amount)}\u00a0₽</span>{note}</td>'
+            f'<td role="cell"><span class="price-meta-label" aria-hidden="true">Срок </span>{e(row["time"] or "—")}</td>'
+            f'<td role="cell"><span class="price-meta-label" aria-hidden="true">Гарантия </span>{e(row["warranty"] or "—")}</td></tr>')
+
 def render(rows):
     if not rows:
-        return '<p>Уточните стоимость ремонта <a href="tel:+74012905015">по телефону</a>.</p>'
-    cats=[];buttons=[];sections=[]
+        return '<p class="catalog-empty">Уточните стоимость ремонта <a href="tel:+74012905015">по телефону</a>.</p>'
+
+    catalog = {}
+    for row in rows:
+        catalog.setdefault(row['category'], {}).setdefault(row['model'], []).append(row)
+
+    tabs, links, sections = [], [], []
+    headers = ''.join(f'<th scope="col" role="columnheader">{label}</th>'
+                      for label in ('Услуга', 'Цена', 'Срок', 'Гарантия'))
     for category, key in CATEGORIES.items():
-        models=sorted({r['model'] for r in rows if r['category']==category})
-        if not models: continue
-        cats.append(f'<a class="catalog-cat" data-category="{key}" href="#{key}"><span>{e(category)}</span><small>Моделей: {len(models)}</small></a>')
-        sections.append(f'<h2 class="catalog-fallback-heading" id="{key}">{e(category)}</h2>')
-        for model in models:
-            mid=model_id(key,model)
-            buttons.append(f'<a class="catalog-model" data-category="{key}" data-model="{e(model)}" data-model-id="{mid}" href="#prices-{mid}">{e(model)}<span>→</span></a>')
-            cells=[]
-            for row in rows:
-                if row['category']!=category or row['model']!=model: continue
-                price=e(row['price'])+(' ₽' if row['price'].isdigit() else '')
-                note='<small class="price-note">В исходном прайсе несколько значений. Уточните цену для вашей модели по телефону.</small>' if '/' in row['price'] else ''
-                cells.append(f'<tr><td>{e(row["service"])}</td><td class="price-value" data-label="Цена">{price}{note}</td><td data-label="Срок">{e(row["time"] or "—")}</td><td data-label="Гарантия">{e(row["warranty"] or "—")}</td></tr>')
-            sections.append(f'<section class="model-prices" data-model-id="{mid}" id="prices-{mid}" tabindex="-1"><h3>{e(model)}</h3><div class="table-wrap" tabindex="0" role="region" aria-label="Цены {e(model)}"><table class="price-table"><thead><tr><th>Услуга</th><th>Цена</th><th>Срок</th><th>Гарантия</th></tr></thead><tbody>{"".join(cells)}</tbody></table></div></section>')
-    return f'''<div aria-label="Категория устройства" class="catalog-categories">{''.join(cats)}</div>
-<div class="model-step" id="catalog-model-step"><div class="catalog-step-head"><h2 id="catalog-model-heading">Выберите модель</h2><label class="model-search-label" hidden>Поиск модели<input autocomplete="off" id="model-search" placeholder="Например, iPhone 13" type="search"/></label></div><div class="catalog-models">{''.join(buttons)}</div><p id="catalog-empty" hidden>Модель не найдена. Позвоните, чтобы уточнить стоимость.</p></div>
-<div class="service-step" id="catalog-service-step"><div class="catalog-step-head"><h2 id="catalog-service-heading">Услуги и цены</h2><a class="change-model" id="change-model" href="#catalog-model-step" hidden>← Другая модель</a></div>{''.join(sections)}</div>'''
+        models = catalog.get(category)
+        if not models:
+            continue
+        tabs.append(f'<a class="catalog-type" href="#{key}">{e(category)}</a>')
+        sections.append(f'<p class="catalog-fallback-heading" id="{key}">{e(category)}</p>')
+        for model in sorted(models):
+            section_id = 'prices-' + model_id(key, model)
+            name = e(model)
+            links.append(f'<a class="catalog-model" href="#{section_id}">{name}</a>')
+            services = ''.join(map(render_service, models[model]))
+            sections.append(
+                f'<section class="model-prices" id="{section_id}" data-category="{key}">'
+                f'<h2 id="{section_id}-title">{name}</h2>'
+                f'<table class="catalog-table" role="table" aria-labelledby="{section_id}-title">'
+                f'<thead role="rowgroup"><tr role="row">{headers}</tr></thead>'
+                f'<tbody role="rowgroup">{services}</tbody></table></section>'
+            )
+    tables = '\n'.join(sections)
+    return f'''<div class="catalog-fallback">
+  <nav class="catalog-types" aria-label="Тип устройства">{''.join(tabs)}</nav>
+  <details class="catalog-model-list"><summary>Перейти к модели</summary><div>{''.join(links)}</div></details>
+</div>
+<div id="catalog-service-step">
+{tables}
+</div>'''
 
 def replace_block(text,start,end,body):
     if text.count(start)!=1 or text.count(end)!=1 or text.index(start)>text.index(end): raise ValueError('Не найдены границы блока')
